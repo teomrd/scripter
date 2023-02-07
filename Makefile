@@ -7,8 +7,8 @@ MAKE_DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 install:
 	yarn
 
-run:
-	node ./src/main.js
+run: install build
+	node ./dist/main.js
 
 build:
-	echo "Build not currently implemented"
+	yarn run build

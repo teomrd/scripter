@@ -2,4 +2,4 @@
 
 import { chalk } from "zx";
 
-console.log(chalk.blue("Hello World!"));
+console.log(chalk.blue("Hello world!"));
