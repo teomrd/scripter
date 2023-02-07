@@ -1,0 +1,20 @@
+{
+  "name": "scripter",
+  "version": "1.0.0",
+  "description": "A project to create advanced CLI scripts using google's zx along with TypeScript",
+  "main": "main.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zx",
+    "ts",
+    "cli"
+  ],
+  "author": "teomrd",
+  "license": "ISC",
+  "dependencies": {
+    "zx": "^7.1.1"
+  }
+}
