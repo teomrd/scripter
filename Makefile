@@ -12,3 +12,6 @@ run: install build
 
 build:
 	yarn run build
+
+lint:
+	yarn run lint
